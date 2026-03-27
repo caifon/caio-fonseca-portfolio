@@ -3,10 +3,13 @@ export const site = {
   title: "Desenvolvedor Full Stack JavaScript",
   tagline:
     "Construo aplicações web modernas, escaláveis e com experiência de uso impecável — do front ao deploy.",
-  email: "mailto:contato@exemplo.com",
-  emailLabel: "contato@exemplo.com",
-  github: "https://github.com/caiofonseca",
-  linkedin: "https://linkedin.com/in/caiofonseca",
+  email:
+    "https://mail.google.com/mail/?view=cm&fs=1&to=caiorafonseca09@gmail.com&su=Contato%20via%20portfolio%20-%20Oportunidade%20em%20desenvolvimento&body=Ola%20Caio,%0A%0AAcessei%20seu%20portfolio%20e%20achei%20interessante%20sua%20abordagem%20e%20projetos.%0A%0AGostaria%20de%20conversar%20com%20voce%20sobre%20possiveis%20oportunidades%20na%20area%20de%20desenvolvimento.%0A%0AFico%20no%20aguardo%20do%20seu%20retorno.%0A%0AAtenciosamente,",
+  emailLabel: "caiorafonseca09@gmail.com",
+  github: "https://github.com/caifon",
+  linkedin: "https://www.linkedin.com/in/caiofonsecadev/",
+  whatsapp: "https://wa.me/5571996485796",
+  whatsappLabel: "+55 (71) 99648-5796",
 } as const;
 
 export const aboutText =
@@ -66,7 +69,7 @@ export const projects: readonly Project[] = [
       "Vercel",
       "IA",
     ],
-    github: "https://github.com/caiofonseca",
+    github: "https://github.com/caifon",
     demo: "https://scientia-blond.vercel.app/",
     images: [
       "/projects/scientiamed-dashboard.png",
@@ -79,7 +82,7 @@ export const projects: readonly Project[] = [
     description:
       "Painel com métricas em tempo real, gráficos e filtros. Foco em performance e UX responsiva.",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "REST"],
-    github: "https://github.com/caiofonseca",
+    github: "https://github.com/caifon",
     demo: "https://vercel.com",
   },
   {
@@ -87,8 +90,8 @@ export const projects: readonly Project[] = [
     description:
       "Backend REST com autenticação, validação e documentação. Pronto para integração com frontends.",
     tech: ["Node.js", "Express", "PostgreSQL", "Docker"],
-    github: "https://github.com/caiofonseca",
-    demo: "https://github.com/caiofonseca",
+    github: "https://github.com/caifon",
+    demo: "https://github.com/caifon",
   },
 ];
 
