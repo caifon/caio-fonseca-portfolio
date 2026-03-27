@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Caio Fonseca Portfolio
 
-## Getting Started
+Portfólio profissional desenvolvido para apresentar minhas habilidades como desenvolvedor Full Stack JavaScript, com foco em aplicações modernas, performance e experiência visual futurista.
 
-First, run the development server:
+![preview](./public/preview.png)
+
+---
+
+## 🧠 Sobre o projeto
+
+Este projeto foi desenvolvido com o objetivo de demonstrar na prática minhas capacidades em desenvolvimento web, desde a construção de interfaces até a integração com serviços e deploy em ambiente real.
+
+A proposta não é apenas estética, mas sim entregar uma aplicação com:
+- código limpo
+- boa estrutura
+- experiência de usuário moderna
+- base escalável
+
+---
+
+## ⚙️ Tecnologias utilizadas
+
+- **Next.js (App Router)**
+- **TypeScript**
+- **Tailwind CSS**
+- **Supabase**
+- **Google Cloud (APIs e IA)**
+- **Vercel (deploy)**
+
+---
+
+## 🎯 Funcionalidades
+
+- Interface moderna e responsiva
+- Design futurista com foco em UX
+- Animações e transições suaves
+- Estrutura baseada em componentes reutilizáveis
+- Integração com APIs externas
+- Deploy em arquitetura serverless
+
+---
+
+## 🏗️ Arquitetura
+
+- **Frontend:** Next.js (React)
+- **Estilização:** Tailwind CSS
+- **Backend/DB:** Supabase
+- **Infraestrutura:** Vercel + Google Cloud
+
+---
+
+## 🚀 Deploy
+
+🔗 Em breve disponível
+
+---
+
+## 💻 Como rodar o projeto
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
