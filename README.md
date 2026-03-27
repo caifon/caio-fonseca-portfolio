@@ -2,7 +2,7 @@
 
 Portfólio profissional desenvolvido para apresentar minhas habilidades como desenvolvedor Full Stack JavaScript, com foco em aplicações modernas, performance e experiência visual futurista.
 
-![preview](./public/preview.png)
+![Preview do portfólio — hero, navegação e stack visual](./public/preview.png)
 
 ---
 
