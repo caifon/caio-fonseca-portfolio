@@ -16,50 +16,41 @@ export function Projects() {
       bodyFrom="left"
       revealBody={false}
     >
-      <ul className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+      <ul className="mx-auto flex w-full max-w-5xl flex-col gap-8 lg:gap-10">
         {projects.map((project, index) => (
-          <li
-            key={project.name}
-            className={
-              project.wide ? "md:col-span-2 lg:col-span-2" : undefined
-            }
-          >
+          <li key={project.name} className="min-w-0">
             <Reveal
               from="bottom"
               delay={index * 0.09}
               offset={36}
-              className="h-full min-w-0"
+              className="block min-w-0"
             >
-              <article className="flex h-full min-w-0 flex-col overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/40 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-violet-400/30 hover:shadow-[0_20px_50px_rgba(0,0,0,0.4)]">
+              <article className="flex min-h-[520px] flex-col overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/40 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-violet-400/30 hover:shadow-[0_20px_50px_rgba(0,0,0,0.4)] sm:min-h-[560px] md:min-h-[580px]">
                 {project.images && project.images.length > 0 ? (
                   <div
                     className={
                       project.images.length > 1
-                        ? "grid grid-cols-2 gap-px border-b border-white/10 bg-white/10"
-                        : "relative border-b border-white/10"
+                        ? "grid h-[200px] shrink-0 grid-cols-2 gap-px border-b border-white/10 bg-white/10 sm:h-[240px] md:h-[260px]"
+                        : "relative h-[200px] shrink-0 border-b border-white/10 bg-zinc-950/80 sm:h-[240px] md:h-[260px]"
                     }
                   >
                     {project.images.map((src, i) => (
                       <div
                         key={src}
-                        className="relative aspect-[16/10] min-h-[140px] bg-zinc-950/80 sm:min-h-[160px]"
+                        className="relative h-full min-h-0 min-w-0"
                       >
                         <Image
                           src={src}
                           alt={`${project.name} — captura ${i + 1}`}
                           fill
                           className="object-cover object-top"
-                          sizes={
-                            project.wide
-                              ? "(max-width: 768px) 100vw, 66vw"
-                              : "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                          }
+                          sizes="(max-width: 1024px) 100vw, 1024px"
                         />
                       </div>
                     ))}
                   </div>
                 ) : null}
-                <div className="flex flex-1 flex-col p-6 sm:p-8">
+                <div className="flex min-h-0 flex-1 flex-col p-6 sm:p-8">
                   <h3 className="text-xl font-bold text-white">
                     {project.name}
                   </h3>

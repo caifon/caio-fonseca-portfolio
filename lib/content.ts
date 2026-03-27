@@ -51,8 +51,6 @@ export type Project = {
   demo: string;
   /** Caminhos em /public, ex.: `/projects/foo.png` */
   images?: readonly string[];
-  /** Ocupa duas colunas no grid em telas grandes */
-  wide?: boolean;
 };
 
 export const projects: readonly Project[] = [
@@ -75,23 +73,18 @@ export const projects: readonly Project[] = [
       "/projects/scientiamed-dashboard.png",
       "/projects/scientiamed-login.png",
     ],
-    wide: true,
   },
   {
-    name: "Dashboard Analytics",
+    name: "Troka Troka Óleo Norte",
     description:
-      "Painel com métricas em tempo real, gráficos e filtros. Foco em performance e UX responsiva.",
-    tech: ["Next.js", "TypeScript", "Tailwind CSS", "REST"],
+      "Landing page para geração de leads locais: CTA direto para WhatsApp, prova social em destaque e fluxo pensado para mobile. Layout responsivo, navegação clara e arquitetura escalável com Next.js e Tailwind CSS, com deploy na Vercel para performance e boa experiência de uso.",
+    tech: ["Next.js", "Tailwind CSS", "Vercel"],
     github: "https://github.com/caifon",
-    demo: "https://vercel.com",
-  },
-  {
-    name: "API de Serviços",
-    description:
-      "Backend REST com autenticação, validação e documentação. Pronto para integração com frontends.",
-    tech: ["Node.js", "Express", "PostgreSQL", "Docker"],
-    github: "https://github.com/caifon",
-    demo: "https://github.com/caifon",
+    demo: "https://troka-troka-app.vercel.app/",
+    images: [
+      "/projects/troka-troka-hero.png",
+      "/projects/troka-troka-onde-estamos.png",
+    ],
   },
 ];
 
