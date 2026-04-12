@@ -86,6 +86,18 @@ export const projects: readonly Project[] = [
       "/projects/troka-troka-onde-estamos.png",
     ],
   },
+  {
+    name: "Crisóstomo Advocacia",
+    description:
+      "Landing pages focadas em captação de clientes para advogados (Direito do Consumidor e heranças), com integração via WhatsApp e foco em conversão.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "React", "Vercel"],
+    github: "https://github.com/caifon/crisostomo-adv",
+    demo: "https://crisostomo-adv.vercel.app/",
+    images: [
+      "/projects/crisostomo-adv-hero.jpg",
+      "/projects/crisostomo-adv-inventario.jpg",
+    ],
+  },
 ];
 
 export const navItems = [
